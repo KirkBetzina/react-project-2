@@ -32,7 +32,8 @@ From the returned data we will be able to see country, date, price, venues. I ch
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [add link to your wireframes](https://www.figma.com/file/VpndDHiNv65YIYEUZQ4wD7/Wireframing-(Copy)?node-id=0%3A102)
+- [ link to  wireframes](https://www.figma.com/file/VpndDHiNv65YIYEUZQ4wD7/Wireframing-(Copy)?node-id=0%3A102)
+- [Link to React Architecture](https://docs.google.com/drawings/d/1maJLHOoEtZfDVVDJ3KDm-dL3FSajQDNr9jLrNOq8llA/edit)
 
 
 
