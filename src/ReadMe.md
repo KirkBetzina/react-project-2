@@ -71,7 +71,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Working with Nav | H | 5hrs| -- | --|
 | Styling | H | 10hrs | -- | -- | -- |
 | Bulding Base App structure| H | 5hrs | -- | -- |
-| Total | H | 30hrs| 1hrs | hrs |
+| Project Planning | H | 5hrs | 4hrs | -- |
+| Total | H | 35hrs| 1hrs | hrs |
 
 ## Additional Libraries
 Reactstrap
