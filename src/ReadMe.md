@@ -44,11 +44,12 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP EXAMPLE
 - Find and use external api 
 - Render data on page 
-- Allow user to interact with the page
+- Link to external for tavel planning
 
 #### PostMVP EXAMPLE
 
 - connect a 2nd api from health organizations about covid case numbers in that region
+- purchase from my app
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -69,9 +70,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Adding Form | H | 5hrs| -- | -- |
 | Working with API | H | 5hrs| 1hr | -- |
 | Working with Nav | H | 5hrs| -- | --|
-| Styling | H | 10hrs | -- | -- | -- |
+| Styling | H | 5hrs | -- | -- | -- |
 | Bulding Base App structure| H | 5hrs | -- | -- |
-| Project Planning | H | 5hrs | 4hrs | -- |
+| PostMVP Stuff| L | 4hrs | -- | -- |
+| Project Planning | H | 6hrs | 4hrs | -- |
 | Total | H | 35hrs| 1hrs | hrs |
 
 ## Additional Libraries
