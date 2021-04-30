@@ -68,7 +68,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 5hrs| -- | -- |
 | Working with API | H | 5hrs| 1hr | -- |
-| Total | H | 10hrs| 1hrs | hrs |
+| Working with Nav | H | 5hrs| -- | --|
+| Styling | H | 10hrs | -- | -- | -- |
+| Bulding Base App structure| H | 5hrs | -- | -- |
+| Total | H | 30hrs| 1hrs | hrs |
 
 ## Additional Libraries
 Reactstrap
