@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Links
 
-## Available Scripts
+- [ github repo link](https://github.com/freakiestkirk/react-project-2.git)
+- [ deployment link](https://competent-bassi-408bb3.netlify.app/)
 
-In the project directory, you can run:
+## Project Description
 
-### `npm start`
+I want the end user to be able to search with confidence and make informed, concious decisions about where the might travel to see their favorite bands. Since there really havent been any concerts due to the pandemic we all know and love, 'looks like conerts are on the menu!' in 2021!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## API
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+From the returned data we will be able to see country, date, price, venues. I chose ticketmaster.com's api because it looked interesting to me at the time. i hope i feel this optimistic later in the week. 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+"dates": {
+          "start": {
+            "localDate": "2021-05-29",
+            "localTime": "22:30:00",
+            "dateTime": "2021-05-29T20:30:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+```
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Wireframes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ link to  wireframes](https://www.figma.com/file/VpndDHiNv65YIYEUZQ4wD7/Wireframing-(Copy)?node-id=0%3A102)
+- [Link to React Architecture](https://docs.google.com/drawings/d/1maJLHOoEtZfDVVDJ3KDm-dL3FSajQDNr9jLrNOq8llA/edit)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### MVP/PostMVP - 5min
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### MVP EXAMPLE
+- Find and use external api 
+- Render data on page 
+- Link to external for tavel planning
 
-## Learn More
+#### PostMVP EXAMPLE
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- connect a 2nd api from health organizations about covid case numbers in that region
+- purchase from my app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Components
+##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
 
-### Code Splitting
+Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Component | Description | 
+| --- | :---: |  
+| App | This will make the initial data pull and include React Router| 
+| Header | This will render the header include the nav in tablet and desktop media queries| 
+| Footer | This will render the header include the nav for mobile only | 
+| Cards | This is where the concert, covid, and links to travel data are displayed. Displayed for all media queries.| 
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
-### Making a Progressive Web App
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Adding Form | H | 5hrs| -- | -- |
+| Working with API | H | 5hrs| 1hr | -- |
+| Working with Nav | H | 5hrs| -- | --|
+| Styling | H | 5hrs | -- | -- | -- |
+| Bulding Base App structure| H | 5hrs | -- | -- |
+| PostMVP Stuff| L | 4hrs | -- | -- |
+| Project Planning | H | 6hrs | 4hrs | -- |
+| Total | H | 35hrs| 1hrs | hrs |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Additional Libraries
+Reactstrap
 
-### Advanced Configuration
+cloudinary-react
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+as of now. may grow or change at the flow of the project.
 
-### Deployment
+## Code Snippet
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+import React from 'react'
+```
