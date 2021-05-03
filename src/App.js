@@ -1,4 +1,4 @@
-import Card from './components/Card'
+
 import Main from './components/Main'
 import './App.scss';
 
