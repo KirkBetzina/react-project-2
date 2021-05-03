@@ -8,7 +8,7 @@ const Navs = (props) => {
 
   const [collapsed, setCollapsed] = useState(true);
   const toggleNavbar = () => setCollapsed(!collapsed);
-  
+
 
   
 
@@ -23,7 +23,7 @@ const Navs = (props) => {
                 <NavLink href="/pages/AboutMe">About Me</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                <NavLink href="https://www.ticketmaster.com/">Ticket Master</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

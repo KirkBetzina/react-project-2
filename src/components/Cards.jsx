@@ -17,7 +17,7 @@ const Cards = (props) => {
                         <CardTitle tag="h5">Card Title</CardTitle>
                         <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
                         <CardText>
-                          <small className="text-muted">Last updated 3 mins ago</small>
+                          <small className="text-muted">Put some text here</small>
                         </CardText>
                       </CardBody>
                     </Card>
