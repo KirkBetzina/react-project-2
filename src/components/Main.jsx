@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './Card'
+import Cards from './Cards'
 
 const Main = (props) => {
 
@@ -8,7 +8,7 @@ const Main = (props) => {
     return (
         <> 
           <div>This is the main component</div>
-          <Card />
+          <Cards />
         </>
     )
         
