@@ -13,7 +13,7 @@ const Cards = (props) => {
     const response = await fetch(apiUrl);    
     const data = await response.json();
     setApi(data);
-    // console.log(api._embedded.events[0].name[7])
+    
   };
   useEffect(() => {
     getApi(api);
@@ -22,19 +22,20 @@ const Cards = (props) => {
   
 
     const numArr = [1,2,3]
+
+
     return (
         <div className ='Cards'>
             {
                 numArr.map((data, index) => (
                     <div>
                     <Card>
-                      <CardImg top width="100%" src={api?._embedded?.events[data]?.images[7]?.url} alt="Card image cap" />
+                      <CardImg top width="100%" src={api?._embedded?.events[data]?.images[7]?.url} alt="Concert Poster" />
                       <CardBody>
-                        <CardTitle tag="h5"></CardTitle>
-                        <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+                        <CardTitle tag="h5"> {api?._embedded?.events[data]?.name} </CardTitle>
+                        <CardText> {api?._embedded?.events[data]?.dates?.start?.localDate} </CardText>
                         <CardText>
-                          <small className="text-muted">Put some text here</small>
-                        </CardText>
+                          {api?._embedded?.events[data]?._embedded?.venues?.country}</CardText>
                       </CardBody>
                     </Card>
                   </div>
