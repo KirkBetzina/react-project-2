@@ -1,4 +1,4 @@
-const apiData = [{
+const apiData = (props) => [{
     "name": "Extremoduro",
     "type": "event",
     "id": "Z698xZ2qZaA3D",
@@ -86,6 +86,11 @@ const apiData = [{
         },
         "timezone": "Europe/Madrid",
     },
+
+  
+
+
+
 }]
 
 
