@@ -34,8 +34,7 @@ const Cards = (props) => {
                       <CardBody>
                         <CardTitle tag="h5"> {api?._embedded?.events[data]?.name} </CardTitle>
                         <CardText> {api?._embedded?.events[data]?.dates?.start?.localDate} </CardText>
-                        <CardText>
-                          {api?._embedded?.events[data]?._embedded?.venues?.country}</CardText>
+                        <CardText></CardText>
                       </CardBody>
                     </Card>
                   </div>

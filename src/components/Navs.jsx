@@ -20,7 +20,7 @@ const Navs = (props) => {
           <Collapse isOpen={!collapsed} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href="/pages/AboutMe">About Me</NavLink>
+                <NavLink href="/AboutMe">About Me</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://www.ticketmaster.com/">Ticket Master</NavLink>

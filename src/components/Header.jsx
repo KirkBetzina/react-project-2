@@ -1,10 +1,14 @@
 import React from 'react'
 import Navs from './Navs'
+import Form from './Form'
 
 const Header = (props) => {
     return (
         <div>
-            <Navs />
+            <div className = 'not-mobile'>
+                <Navs />
+            </div>
+            <Form />
         </div>
     )
 }
