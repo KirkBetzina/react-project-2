@@ -13,7 +13,7 @@ const Navs = (props) => {
   
 
     return (
-        <div>
+        <div className='navbar'>
         <Navbar color="faded" light>
           <NavbarBrand href="/" className="mr-auto">Post Covid Worlwide Concert Tracker</NavbarBrand>
           <NavbarToggler onClick={toggleNavbar} className="mr-2" />

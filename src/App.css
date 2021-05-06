@@ -1,5 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
+  background-image: url('https://c.stocksy.com/a/h99200/z9/511853.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
 }
 
 .App-logo {
@@ -50,15 +67,17 @@
     display: none;
   }
 }
-.main-div {
-  background-image: url('https://c.stocksy.com/a/h99200/z9/511853.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
 
 .cards {
   margin: 100px;
+}
+
+.aboutme {
+  color:antiquewhite;
+}
+
+.navbar, .mr-auto {
+  border: 1px solid red;
+  color: whitesmoke;
 }
 
