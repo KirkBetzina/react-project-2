@@ -14,7 +14,7 @@ const Navs = (props) => {
 
     return (
         <div className='navbar'>
-        <Navbar color="faded" light>
+        <Navbar color="faded" dark>
           <NavbarBrand href="/" className="mr-auto">Post Covid Worlwide Concert Tracker</NavbarBrand>
           <NavbarToggler onClick={toggleNavbar} className="mr-2" />
           <Collapse isOpen={!collapsed} navbar>

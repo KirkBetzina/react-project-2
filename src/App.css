@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Cabin', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -62,9 +62,11 @@
   }
   .mobile {
     display: block;
+    background: transparent;
   }
   .footer {
     display: none;
+
   }
 }
 
@@ -76,8 +78,17 @@
   color:antiquewhite;
 }
 
-.navbar, .mr-auto {
-  border: 1px solid red;
-  color: whitesmoke;
+a.mr-auto.navbar-brand {
+    color: crimson;
 }
 
+.navbar-light .navbar-toggler-icon {
+  border:1px solid red;
+  color: whitesmoke !important;
+}
+.navbar {
+  width: 100%;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: whitesmoke !important;
+}
