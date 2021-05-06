@@ -50,4 +50,15 @@
     display: none;
   }
 }
+.main-div {
+  background-image: url('https://c.stocksy.com/a/h99200/z9/511853.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cards {
+  margin: 100px;
+}
 

@@ -6,10 +6,10 @@ const Main = (props) => {
     
 
     return (
-        <> 
+        <div className='main-div'> 
           
           <Cards  />
-        </>
+        </div>
     )
         
 }

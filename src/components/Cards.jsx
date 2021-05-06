@@ -25,22 +25,24 @@ const Cards = (props) => {
 
 
     return (
-        <div className ='Cards'>
+      <>
+        <div className ='cards'>
             {
                 numArr.map((data, index) => (
                     <div>
-                    <Card>
+                    <Card className= "mb-5">
                       <CardImg top width="100%" src={api?._embedded?.events[data]?.images[7]?.url} alt="Concert Poster" />
                       <CardBody>
                         <CardTitle tag="h5"> {api?._embedded?.events[data]?.name} </CardTitle>
                         <CardText> {api?._embedded?.events[data]?.dates?.start?.localDate} </CardText>
-                        <CardText></CardText>
+                        
                       </CardBody>
                     </Card>
                   </div>
                 ))
             }
         </div>
+      </>  
     )  
 }
 
