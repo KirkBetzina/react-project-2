@@ -20,27 +20,10 @@
 .mobile {
   display: none;
 }
-@media only screen and (max-width: 500px) {
-  .not-mobile {
-    display: none;
-  }
-  .mobile {
-    display: block;
-    background: transparent;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  .footer {
-    display: none;
 
-  }
-}
 .cards {
   margin: 0 auto;
   width: 60%;
-  
-  
 }
 
 .aboutme {
@@ -54,13 +37,33 @@ a.mr-auto.navbar-brand {
 
 .navbar-light .navbar-toggler-icon {
   color: whitesmoke !important;
+  
 }
 .navbar {
   width: 100%;
 }
-.navbar-light .navbar-nav .nav-link {
-  color: whitesmoke !important;
+.navbar-dark .navbar-nav .nav-link {
+  color: crimson !important;
 }
 .card-container {
   padding: 5%;
+}
+@media only screen and (max-width: 500px) {
+  .not-mobile {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    background: transparent;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer {
+    display: none;
+  }
+  a.mr-auto.navbar-brand {
+    color: crimson;
+    font-size: 12px;
+  }
 }

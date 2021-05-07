@@ -30,7 +30,7 @@ From the returned data we will be able to see country, date, price, venues. I ch
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
+Wireframes and React Architechture 
 
 - [ link to  wireframes](https://www.figma.com/file/VpndDHiNv65YIYEUZQ4wD7/Wireframing-(Copy)?node-id=0%3A102)
 - [Link to React Architecture](https://docs.google.com/drawings/d/1maJLHOoEtZfDVVDJ3KDm-dL3FSajQDNr9jLrNOq8llA/edit)
@@ -78,14 +78,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 ## Additional Libraries
 Reactstrap
-
-cloudinary-react
-
-as of now. may grow or change at the flow of the project.
+As of now. may grow or change at the flow of the project.
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
+This code snippet dynamically generates 3 cards. Im proud of it because I was able to make it work.
 
 ```
 const numArr = [1,2,3]
