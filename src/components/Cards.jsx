@@ -29,8 +29,8 @@ const Cards = (props) => {
         <div className ='cards'>
             {
                 numArr.map((data, index) => (
-                    <div>
-                    <Card color="faded" dark className= "mb-5">
+                    <div className="card-container">
+                    <Card color="faded" dark>
                       <CardImg top width="100%" src={api?._embedded?.events[data]?.images[data]?.url} alt="Concert Poster" />
                       <CardBody>
                         <CardTitle tag="h5"> {api?._embedded?.events[data]?.name} </CardTitle>

@@ -37,19 +37,22 @@
   }
 }
 .cards {
-  margin: 100px;
+  margin: 0 auto;
+  width: 60%;
+  
+  
 }
 
 .aboutme {
   color:antiquewhite;
+  height: 100vh;
 }
 
 a.mr-auto.navbar-brand {
-    color: crimson;
+  color: crimson;
 }
 
 .navbar-light .navbar-toggler-icon {
-  border:1px solid red;
   color: whitesmoke !important;
 }
 .navbar {
@@ -57,4 +60,7 @@ a.mr-auto.navbar-brand {
 }
 .navbar-light .navbar-nav .nav-link {
   color: whitesmoke !important;
+}
+.card-container {
+  padding: 5%;
 }
