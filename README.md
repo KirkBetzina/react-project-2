@@ -68,14 +68,13 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 5hrs| -- | -- |
-| Working with API | H | 5hrs| 1hr | -- |
-| Working with Nav | H | 5hrs| -- | --|
-| Styling | H | 5hrs | -- | -- | -- |
-| Bulding Base App structure| H | 5hrs | -- | -- |
-| PostMVP Stuff| L | 4hrs | -- | -- |
-| Project Planning | H | 6hrs | 4hrs | -- |
-| Total | H | 35hrs| 1hrs | hrs |
+| Working with API | H | 5hrs| 8hrs | 8hrs |
+| Working with Nav | H | 5hrs| 5hrs | 5hrs |
+| Styling | H | 5hrs | 5hrs | 5hrs |
+| Bulding Base App structure| H | 5hrs | 6hrs | 6hrs |
+| PostMVP Stuff| L | 4hrs | 3hrs | 3hrs |
+| Project Planning | H | 6hrs | 6hrs | 6hrs- |
+| Total | H | 35hrs| 33hrs | 33hrs |
 
 ## Additional Libraries
 Reactstrap
@@ -89,5 +88,25 @@ as of now. may grow or change at the flow of the project.
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
 ```
-import React from 'react'
+const numArr = [1,2,3]
+    return (
+     
+        <div className ='cards'>
+              {            
+                numArr.map((data, index) => (
+                    <div className="card-container">
+                    <Card color="faded" dark>
+                      <CardImg top width="100%" src={api?._embedded?.events[data]?.images[0]?.url} alt="Concert Poster" />
+                      <CardBody>
+                        <CardTitle tag="h5"> {api?._embedded?.events[data]?.name} </CardTitle>
+                        <CardText> {api?._embedded?.events[data]?.dates?.start?.localDate} </CardText>                        
+                      </CardBody>
+                    </Card>
+                  </div>
+                ))
+              }
+        </div>
+        
+    )  
+}
 ```

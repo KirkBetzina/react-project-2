@@ -22,8 +22,6 @@ const Cards = (props) => {
   
 
   const numArr = [1,2,3]
-
-
     return (
      
         <div className ='cards'>
