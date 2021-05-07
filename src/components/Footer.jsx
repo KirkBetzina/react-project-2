@@ -6,7 +6,7 @@ const Footer = (props) => {
         <div className = 'mobile'> 
             <Navs />            
         </div>
-        <div className="footer">Conceptualised by FreakiestKirk </div>
+        <div className="footer">Conceptualised by freakiestkirk </div>
     </div>
 }
 export default Footer

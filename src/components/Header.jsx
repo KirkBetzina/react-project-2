@@ -1,6 +1,6 @@
 import React from 'react'
 import Navs from './Navs'
-import Form from './Form'
+// import Form from './Form'
 
 const Header = (props) => {
     return (
@@ -8,7 +8,7 @@ const Header = (props) => {
             <div className = 'not-mobile'>
                 <Navs />
             </div>
-            <Form />
+            {/* <Form /> */}
         </div>
     )
 }
