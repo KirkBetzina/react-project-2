@@ -6,8 +6,7 @@ const Main = (props) => {
     
 
     return (
-        <div className='main-div'> 
-          
+        <div className='main-div'>           
           <Cards  />
         </div>
     )

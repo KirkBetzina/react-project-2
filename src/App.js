@@ -1,6 +1,5 @@
 
 import Main from './components/Main'
-import Navs from './components/Navs'
 import Footer from './components/Footer'
 import AboutMe from './pages/AboutMe'
 import './App.css';
@@ -12,18 +11,16 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Switch>
-        <Route exact path='/'>
-          <Main/>
-        </Route>
-        <Route path ='/AboutMe'>
-          <AboutMe/>
+        <Switch>
+          <Route exact path='/'>
+            <Main/>
           </Route>
-        <Route path ='/Main'></Route>
-      </Switch>
-        <Footer />
-      
-    
+          <Route path ='/AboutMe'>
+            <AboutMe/>
+          </Route>
+          <Route path ='/Main'></Route>
+        </Switch>
+      <Footer />
     </div>
   );
 }
